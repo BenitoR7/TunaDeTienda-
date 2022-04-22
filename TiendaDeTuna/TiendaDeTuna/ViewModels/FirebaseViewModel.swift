@@ -2,6 +2,7 @@ import Foundation
 import FirebaseFirestore
 class FirebaseViewModel: ObservableObject {
     @Published var checkOutFields = [CheckOutFields]()
+
     private var  db = Firestore.firestore()
     
     func getAllData() {
@@ -18,10 +19,11 @@ class FirebaseViewModel: ObservableObject {
                 return CheckOutFields(name: name, phoneNum: phoneNum)}}
     }
    
-    func addNewData(name: String, phoneNum: String, orderItems: [TunaModel]) {
+    func addNewData(name: String, phoneNum: String, orderItems: [TunaModel], total :Double ) {
         db.collection("checkOutFields").addDocument(data: ["name": name,
                                                            "phoneNum": phoneNum,
-                                                           "order": orderItems.map{$0.dictionary}])
+                                                           "order": orderItems.map{$0.dictionary},
+                                                           "orderTotal": total ])
     }
 }
 

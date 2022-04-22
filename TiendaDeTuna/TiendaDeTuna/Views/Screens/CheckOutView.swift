@@ -63,7 +63,7 @@ struct CheckOutView: View {
                         self.showAlert = true
                         print("additionalNotes\(additionalNotes)")
                         //self.viewModel.addNewData(checkOutField: authenticationViewModel.customerName)
-                        self.viewModel.addNewData(name: authenticationViewModel.customerName, phoneNum: authenticationViewModel.phoneNumber, orderItems: order.items)
+                        self.viewModel.addNewData(name: authenticationViewModel.customerName, phoneNum: authenticationViewModel.phoneNumber, orderItems: order.items, total: order.total)
                     })
                     {Text("pedido")
                             .font(.title2)
