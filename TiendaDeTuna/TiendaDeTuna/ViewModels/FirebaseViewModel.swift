@@ -17,9 +17,11 @@ class FirebaseViewModel: ObservableObject {
                 
                 return CheckOutFields(name: name, phoneNum: phoneNum)}}
     }
-    
-    func addNewData(name: String, phoneNum: String) {
-        db.collection("checkOutFields").addDocument(data: ["name": name, "phoneNum": phoneNum])
+   
+    func addNewData(name: String, phoneNum: String, orderItems: [TunaModel]) {
+        db.collection("checkOutFields").addDocument(data: ["name": name,
+                                                           "phoneNum": phoneNum,
+                                                           "order": orderItems.map{$0.dictionary}])
     }
 }
 

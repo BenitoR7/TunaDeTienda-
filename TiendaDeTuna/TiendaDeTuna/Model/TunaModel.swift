@@ -11,6 +11,11 @@ struct TunaModel: Hashable, Codable, Identifiable {
     var headline: String
     var genre: [Genre]
 
+    var dictionary: [String: Any] {
+            return ["name": name,
+                    "price": price,
+                    "quantity": quantity]
+        }
 }
 
 

@@ -59,10 +59,11 @@ struct CheckOutView: View {
                         .overlay(RoundedRectangle(cornerRadius: 10)
                             .stroke(Color.blue, lineWidth: 1))}
                     Button(action:
-                            {self.showAlert = true
+                            {
+                        self.showAlert = true
                         print("additionalNotes\(additionalNotes)")
                         //self.viewModel.addNewData(checkOutField: authenticationViewModel.customerName)
-                        self.viewModel.addNewData(name: authenticationViewModel.customerName, phoneNum: authenticationViewModel.phoneNumber)
+                        self.viewModel.addNewData(name: authenticationViewModel.customerName, phoneNum: authenticationViewModel.phoneNumber, orderItems: order.items)
                     })
                     {Text("pedido")
                             .font(.title2)
