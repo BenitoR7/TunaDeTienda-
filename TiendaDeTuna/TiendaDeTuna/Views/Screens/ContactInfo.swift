@@ -30,14 +30,14 @@ struct ContactInfo: View {
                 List{
                     VStack (alignment: .leading)
                     { HStack {
-                        Text("Address")
+                        Text("dirección")
                             Spacer()
                             .font(.subheadline)
-                        Text("Cali, Colombia")}
+                        Text("Cl. 2a #69-34 Cali, Colombia")}
                         .padding(.horizontal) }
                 VStack{
                   HStack {
-                        Text("Phone")
+                        Text("teléfono")
                             Spacer()
                             .font(.subheadline)
                         Text("+57 323-346-0230")}
@@ -48,23 +48,23 @@ struct ContactInfo: View {
                             Spacer()
                             .font(.subheadline)
                             .accentColor(.black)
-                        Text("tuna@tuna.com")}
+                        Text("info@tienda-de-tuna.xyz")}
                     .padding(.horizontal)} }
                 .background(Color.blue)
             VStack{
             HStack (spacing:54){
                 Group{
-                    Link(destination: URL(string: "https://www.simpleswiftguide.com")!) {
+                    Link(destination: URL(string: "https://www.facebook.com/Tienda-De-Tuna-113077381383490")!) {
                         Image("facebook")
                             .resizable()
                             .scaledToFit()
                         .frame(width: 50, height: 50)}
-                        Link(destination: URL(string: "https://www.simpleswiftguide.com")!) {
+                        Link(destination: URL(string: "https://www.instagram.com/tiendadetuna/")!) {
                             Image("instagram")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 50, height: 50)}
-                            Link(destination: URL(string: "https://www.simpleswiftguide.com")!) {
+                            Link(destination: URL(string: "https://twitter.com/TiendaTuna")!) {
                                 Image("twitter")
                                     .resizable()
                                     .scaledToFit()
@@ -77,7 +77,7 @@ struct ContactInfo: View {
                         .font(.subheadline)
                         .foregroundColor(.white)
                     Spacer()
-                    Text("tuna@tuna.com")
+                    Text("https://site.benrettig.online/")
                         .font(.subheadline)
                         .accentColor(.white)}
                 .padding(.horizontal,50)}

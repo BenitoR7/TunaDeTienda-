@@ -1,7 +1,7 @@
 [
     {
         "name": "seattle",
-        "price": 4.01,
+        "price": 12.00,
         "id": 1001,
         "quantity": 0,
         "description": "Nuestro rollo Seattle es un rollo makizushi similar al rollo California. Contiene pepino, aguacate, salmón crudo del Pacífico y masago. Todo tipo de combinaciones de sabores para principiantes y expertos en sushi.",
@@ -13,7 +13,7 @@
     },
     {
         "name": "philly",
-        "price": 4.01,
+        "price": 12.00,
         "id": 1002,
         "quantity": 0,
         "description": "El rollo Filadelfia es un makizushi (también clasificado como kawarizushi), un tipo de sushi elaborado con salmón ahumado, queso crema y pepino. También incluye aguacate, cebollín y semillas de sésamo.",
@@ -25,7 +25,7 @@
     },
     {
         "name": "langosta",
-        "price": 4.01,
+        "price": 14.00,
         "id": 1015,
         "quantity": 0,
         "description": "Langosta frita crocante con aguacate, cubierta con masago y salsa especial.",
@@ -37,7 +37,7 @@
     },
     {
         "name": "cali",
-        "price": 4.01,
+        "price": 12.00,
         "id": 1003,
         "quantity": 0,
         "description": "Los principales ingredientes envueltos son el aguacate, la carne de cangrejo y la mayonesa envuelta con algas. El rollo de adentro hacia afuera se espolvorea por fuera con semillas de sésamo.",
@@ -51,7 +51,7 @@
     },
     {
         "name": "arcoíris",
-        "price": 4.01,
+        "price": 14.0,
         "id": 1004,
         "quantity": 0,
         "description": "El rollo arcoíris va un paso más allá al agregar atún crudo, salmón, camarones y pescado blanco.",
@@ -63,7 +63,7 @@
     
     {
         "name": "atún picante",
-        "price": 4.01,
+        "price": 13.50,
         "id": 1005,
         "quantity": 0,
     "description": "Nuestro rollo de atún picante es un rollo makizushi que contiene atún crudo y mayonesa picante. El rollo se sazona con Ichimi togarashi (polvo de chile rojo molido)..",
@@ -74,7 +74,7 @@
  },
     {
         "name": "dragón",
-        "price": 2.95,
+        "price": 14.00,
         "id": 1006,
         "quantity": 0,
         "description": "Nuestro sushi de rollo de dragón está hecho de tempura de camarones y pepino que se meten dentro del nori y con rodajas finas de aguacate que se colocan en capas sobre el rollo de sushi.",
@@ -85,7 +85,7 @@
     },
     {
         "name": "pepino",
-        "price": 4.01,
+        "price": 12.00,
         "id": 1007,
         "quantity": 0,
         "description": "Una delicia vegetariana con pepinos y aguacate enrollada en arroz.",
@@ -100,7 +100,7 @@
     
     {
         "name": "boston",
-        "price": 3.45,
+        "price": 13.50,
         "id": 1008,
         "quantity": 0,
         "description": "Nuestros Boston Rolls están rellenos de aguacate cremoso, camarones escalfados y pepino crujiente, luego se enrollan en láminas de alga nori y arroz de sushi.",
@@ -114,7 +114,7 @@
     },
     {
         "name": "alaskan",
-        "price": 4.55,
+        "price": 14.00,
         "id": 1009,
         "quantity": 0,
         "description": "Este es un rollo con el arroz adentro en lugar de afuera. Estos están rellenos de salmón ahumado, cangrejo y aguacate.",
@@ -126,7 +126,7 @@
     },
     {
         "name": "teriyaki",
-    "price": 5.51,
+    "price": 13.50,
         "id": 1010,
         "quantity": 0,
         "description": "Una deliciosa mezcla de pollo teriyaki dulce y pegajoso, pepino crujiente y arroz perfectamente sazonado. El aderezo con aguacate suave le da un giro real a la textura y el sabor de este rollo de sushi.",
@@ -138,7 +138,7 @@
     },
     {
         "name": "camarones",
-        "price": 4.01,
+        "price": 14.00,
         "id": 1011,
         "quantity": 0,
         "description": "Este es un rollo de sushi crujiente y sabroso hecho con camarones horneados y rebozados, arroz de sushi, nori, pepino y aguacate. Un poco de tobiko y salsa de sushi Unagi como guarnición lo adornan y le dan a cada pieza un poco de sabor para equilibrar los sabores.",
@@ -149,7 +149,7 @@
  },
     {
         "name": "araña",
-     "price": 3.65,
+     "price": 13.65,
         "id": 1012,
         "quantity": 0,
         "description": "Este rollo es un tipo de sushi makizushi que incluye cangrejo de caparazón blando empanizado y otros ingredientes como pepino, aguacate, lechuga y mayonesa picante, enrollado dentro de nori y arroz de sushi.",
@@ -160,7 +160,7 @@
 },
     {
         "name": "hawaiian",
-        "price": 3.55,
+        "price": 13.55,
         "id": 1013,
         "quantity": 0,
         "description": "Los camarones, el cangrejo y el pepino están por dentro, con ahi chamuscado y aguacate por fuera, rociados con salsa dulce de mandarina, cubiertos con tempura crujiente, cebolletas y kuro goma (semilla de sésamo).",
@@ -171,7 +171,7 @@
  },
     {
         "name": "atún",
-        "price": 3.51,
+        "price": 13.55,
         "id": 1014,
         "quantity": 0,
         "description": "Nuestro rollo de atún (Tekka maki) es simplemente un rollo de sushi de atún crudo. Es un hosomaki clásico con alga nori en el exterior + solo tiene unos pocos ingredientes, incluidas rodajas enteras de atún magro.",
